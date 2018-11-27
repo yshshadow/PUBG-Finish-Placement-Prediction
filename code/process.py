@@ -10,8 +10,8 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.neighbors import KNeighborsRegressor
 import lightgbm as lgb
 
-df = pd.read_csv('./input/train_V2.csv', header=0)
-test_df = pd.read_csv('./input/test_V2.csv', header=0)
+df = pd.read_csv('../input/train_V2.csv', header=0)
+test_df = pd.read_csv('../input/test_V2.csv', header=0)
 
 df.dropna(inplace=True)
 df.drop_duplicates(inplace=True)
