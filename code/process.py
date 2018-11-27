@@ -10,6 +10,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.neighbors import KNeighborsRegressor
 import lightgbm as lgb
 
+# download data at https://www.kaggle.com/c/pubg-finish-placement-prediction/data
 df = pd.read_csv('../input/train_V2.csv', header=0)
 test_df = pd.read_csv('../input/test_V2.csv', header=0)
 
